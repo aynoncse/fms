@@ -1,0 +1,191 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+h3{
+	font-size: 18px;
+}
+big{
+	font-size: 32px;
+}
+p {
+	margin: 30px 50px 10px;
+	text-align: justify;
+}
+.clear{
+	overflow: hidden;
+}
+.headsection{
+	margin-top:10px;
+	background: #1073CE;
+}
+
+.form-data-2 {
+	width: 100%;
+	float: left;
+	margin: 0 15px 15px 2px;
+}
+.form-data-1 {
+	float: left;
+	margin: 0 60px 15px 2px;
+}
+.form-data select {
+	background-color: white;
+	border: thin solid #DDDDDD;
+	border-radius: 4px;
+	box-shadow: 0px 2px 6px #6683bd4d;
+	display: inline-block;
+	line-height: 1em;
+
+	padding: 0.5em 3.5em 0.5em 1em;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+/* arrows */
+
+select.select-item {
+  background-image:
+    linear-gradient(45deg, transparent 50%, blue 50%),
+    linear-gradient(135deg, blue 50%, transparent 50%),
+    linear-gradient(to right, skyblue, skyblue);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    100% 0;
+  background-size:
+    5px 5px,
+    5px 5px,
+    2.5em 2.5em;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+select.select-item:focus {
+  background-image:
+    linear-gradient(45deg, white 50%, transparent 50%),
+    linear-gradient(135deg, transparent 50%, white 50%),
+    linear-gradient(to right, gray, gray);
+  background-position:
+    calc(100% - 15px) 1em,
+    calc(100% - 20px) 1em,
+    100% 0;
+  background-size:
+    5px 5px,
+    5px 5px,
+    2.5em 2.5em;
+  background-repeat: no-repeat;
+  border-color: grey;
+  outline: 0;
+}
+.navbar {
+	border-radius: 0 0 4px 4px;
+	border-top: 0px;
+}
+
+.navbar-default {
+	margin-top: -21px;
+}
+.navbar-nav {
+	margin-left: -30px;
+}
+.well-custom {
+	border: 1px solid #1073CE;
+	border-radius: 4px 4px 0 0;
+}
+@-webkit-keyframes blinker {
+  from {opacity: 1.0;}
+  to {opacity: 0.0;}
+}
+.blink{
+	text-decoration: blink;
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease-in-out;
+	-webkit-animation-direction: alternate;
+}
+
+.ck.ck-editor__main > .ck-editor__editable{
+	min-height: 280px;
+}
+#datepicker {
+	width: 180px;
+	float: right;
+	margin-bottom: 25px;
+}
+#datepicker > span:hover{cursor: pointer;}
+
+#datepicker > .form-control[readonly]{
+	background-color: #fff;
+	opacity: 1;
+}
+
+#datepicker > .input-group-addon {
+	color: #0000FF;
+	background-color: #87CEEB;
+}
+.datepicker-days table {
+	width: 360px;
+}
+.datepicker-days table thead{
+	background-color: #1585aa;
+	color: #193e42;
+}
+.datepicker-days table tbody{
+	background-color: #129385;
+	color: #fff
+}
+.datepicker-days table tbody td{
+	cursor: pointer;
+	border: 1px solid #34A294;
+	text-align: center;
+}
+.datepicker-days table tbody td:hover {
+	background-color: #c82f24;
+}
+.header-form > .form-data{
+	width: 15%;
+}
+
+.attend-form{
+	margin: -75px 0 0 0;
+}
+.checkAll{
+	margin-top: 10px;
+}
+.attend-form table th{
+	background: #7CB0EA;
+}
+
+.director-header{
+	padding: 10px 15%;
+}
+
+.panel-primary > .panel-heading {
+	background-color: #1073CE;
+	border-color: #1073CE;
+}
+
+.panel-heading {
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.panel-primary {
+	border-color: #1073CE;
+}
+.tbl-dif-row{
+	background-color: #729ab4;
+}
+.director-logout{
+	color: #E1ECF3;
+	position: absolute;
+	width: 200px;
+	right: 170px;
+}
